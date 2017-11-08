@@ -1,0 +1,54 @@
+paxy added to database.
+Nemanja added to database.
+nmnj added to database.
+duxan added to database.
+milan added to database.
+nemanja added to database.
+1 - Initialize server
+2 - Add user to database.
+3 - Exit Application
+1
+Server up and running on port: 4000
+Connection successful: [/127.0.0.1:4000]
+Thread initialized.
+Primljena poruka je: USER paxy
+U bazi je.
+331 OK. Enter password.
+Primljena poruka je: PASS mreze
+230 Logged in
+Primljena poruka je: SYST
+215 UNIX Type: L8
+Primljena poruka je: FEAT
+211-Extensions supported:
+MLST size*;create;modify*;perm;media-type
+SIZE
+COMPRESSION
+COMPRESSION
+MDTM
+211 END
+Primljena poruka je: OPTS MLST size;modify;perm;
+Primljena poruka je: PWD
+257 "/"
+Primljena poruka je: TYPE I
+200 Binary flag is on.
+Primljena poruka je: PASV
+Host: /127.0.0.1
+host string je 127.0.0.1
+227 127,0,0,1,133,102
+Primljena poruka je: MLSD
+upalio sam pasv thread na portu 34150
+cekam konekciju
+Passive connection with: localhost on port50063
+Izlazim iz run-a
+150 PRIMAJ
+PASV sent Type=file;Size=41019;Modify=1496775672000;Perm=rw; DrzavnaAdministracija_RQM.rqm
+Type=file;Size=41019;Modify=1496775672000;Perm=rw; DrzavnaAdministracija_RQM.rqm
+PASV sent Type=dir;Size=238;Modify=1496775564000;Perm=rw; ftp_server
+Type=dir;Size=238;Modify=1496775564000;Perm=rw; ftp_server
+PASV sent Type=file;Size=0;Modify=1496772182000;Perm=rw; sadsa
+Type=file;Size=0;Modify=1496772182000;Perm=rw; sadsa
+PASV sent Type=dir;Size=102;Modify=1496775564000;Perm=rw; test_client
+Type=dir;Size=102;Modify=1496775564000;Perm=rw; test_client
+PASV sent Type=file;Size=79;Modify=1496737970000;Perm=rw; usernames.txt
+Type=file;Size=79;Modify=1496737970000;Perm=rw; usernames.txt
+226 MLSD complete.
